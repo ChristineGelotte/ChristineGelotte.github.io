@@ -10,8 +10,9 @@ p{
   font-size:24pt;
 }
 nav{
-  background-color:#404040;
+  background-color:black;
   color:white;
+  border:solid thin white;
 }
 .title{
   border:solid;
