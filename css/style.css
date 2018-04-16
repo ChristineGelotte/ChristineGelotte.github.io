@@ -24,7 +24,7 @@ nav{
   border:solid thick;
 }
 #home{
-  margin-top:500px;
+  margin-top:200px;
   margin-bottom:500px;  
 }
 #contact{
@@ -42,7 +42,7 @@ nav{
   text-align:center;
 }
 .project-pic{
-  width:300px;
+  width:350px;
   height:300px;
   border:solid thin white;
 }
