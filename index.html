@@ -8,21 +8,22 @@
   
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
-
       <link rel="stylesheet" href="css/style.css">
 
   
 </head>
 
-<body>
-<div class = "container">
-<nav class = "navbar navbar-expand-lg">
-  <ul class="navbar-nav">
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+<nav class = "navbar navbar-expand navbar-inverse fixed-top">
+  <ul class="nav">
     <li class = "nav-item"> 
       <div class="nav-brand">Christine Gelotte</div>
     </li>
     </ul>
-  <ul class="navbar-nav  ml-auto">
+  <ul class="nav  nav-pills ml-auto">
+	<li class="nav-item">
+  <a class = "nav-link" href = "#home">Home</a>
+    </li>
     <li class="nav-item">
   <a class = "nav-link"  href = "#about">About</a>
     </li>
@@ -33,15 +34,17 @@
     </li>
   </ul>
 </nav>
-  <div id = "home">
+<div class = "container">
+  <section id = "home" class = "ptop">
     <div id = "page-title" class = "title"><h1>Christine Gelotte's Portfolio Page</h1></div>
-  </div>
-  <div id = "about">
+	<img id = "home-img" class = "mx-auto d-block" src = "https://lh3.googleusercontent.com/J9sJFF1lqPgT53etztBFvGKr5lC1kaDHaduXz9X2_H93wptxp8H9wxGnl-aUrvtStcIcGd2Ta3eFwiN3Hu45RWjndgwZampEDLnlzCl-HvCWiRoCdem7zRsM8PxYJlRdugY6nGlm3qikCraWdOfpj_MQdYFWXcR3etH8mEld0gwJ6x4qKYIN1wH5tJtICVAzTwtnggWEUD-1AG3ssCXZmAacVV4bMdcl2Td-OjwiOFWpULPn_7-FfU4193-agG9MQf1CWgYEZy2IZSjj9EkY7cEmy3UzYwFIQPa82fLuQWVPPWwJRB3_loccJnzdJlHVNcMax1h-7yg9CqkLfc5cSvCDwqc9rkjYma3_aNIYmoaJN4Kf01fC6u3lmjhWU-I21fkfz0WwFj7KGRSB1F-E0_bpPfLCnsApFt7HQLKK9R6EpxrwieIhf99i6V4rcn8m_KkUGCjNogUrSD-Z6gtQNmhl7Wt4T_XD25-suXPRYlF4XJ9VR_95BJe3A9-geSy9pWXsGuVbglxT0RmJM9KZlWcGqjsUEaklFP6alw7cptzjMOmAXcbnwr-ZfRq6nD7FT4On-nsnkIRt878ZM8GrCOT1FHjM6nQCKgX2WA=w3162-h1764-no" alt = "Image of a bandpass filter circuit on breadboard">
+  </section>
+  <div id = "about" class = "ptop">
     <div class = "title"><h2>About Me</h2></div>
     <img src = "https://media.licdn.com/dms/image/C5603AQEJ8hxSj-4l_g/profile-displayphoto-shrink_200_200/0?e=1529049600&v=beta&t=Fnfj6iOQOTavaptyr2A7sIRWRS3KYOMHrCIZku6T6_U" class = "rounded-circle" align = "right">
     <p>I am an aspring software developer/engineer. I will graduate in May with a bachelor's degree in Computer Engineering from Lehigh University. In my free time, I write poetry, practice martial arts, and hike. I am currently searching for a job in my field. I have a stronger interest in software over hardware. In my software classes, I have primarily used Java. I have recently been interested in front end development so I have been learning Javascript, HTML/CSS, and Bootstrap on my own. This portfolio displays a few of my front-end projects. In the future, I intend to learn more about backend development. Specifically, I would like to get more practice using SQL, node.js, and express.js. When I get a hired, I will adapt my studies to get practice with technologies specific to my job function.</p>
   </div>
-  <div id = "portfolio">
+  <section id = "portfolio" class = "ptop">
     <div class = "title"><h2>Portfolio</h2></div>
     <div class = "row">
       <div class = "col-xs col-md">
@@ -54,17 +57,17 @@
      <p class = "project-title">Tribute to Son House</p>
      <a href = "https://codepen.io/cgelotte/full/zRpNoZ/"><img src = "https://lh3.googleusercontent.com/VCy4GHn0duEpD1uWneTVxdLtUAGVDovUn2_qOJGvvuS7hJJEbPmYN8qEWRnoNrJZ4UktCFPW4vh0CaiGyslY1J8wU3iOsjzCb-T2OYShyDyn5wwzC_NF-1atad8JFP1u-Y6_DBcHUoHY-w2-qBYv05vcvyozBOmgh4dU6aphuPLUGo74l1r61TXDS-O6ksHTdQLA9Z8iPgV8vHnA0tfhpQoZZMRzaPlLAZWPYm_E7LbxI0sptQVZwE_dO34xNBCl399FgMWQN6fSGAhE6IiPvpeJM2JErGEfpmFPBV3nhQySX8pIZVJY_uRBqOY0VWQes1xhFmBBbnibaxdWiij_hF8PDh_71hADu0IoZhrQ-unsDTP5vLha7jlXZ5_8RzCFDgCrl4GUnVyQVLkRkN2LhpVLmUJPlCd6htRFs72DkLloY90WxgtE_F_pCqGTsqXR9bUF-vvZpqKBCd4obX5950OILiqLo4iJ1Nglp8d9T80S4Zh6ooOnjostviBaMfL6FkxQWk-nA1iseTaH9HutgYNjtk-X46aLPVkSPLtwdStBvrQmDdI-pgHyu_WdsFJjD_ciKfQZT4kDeP1aN0x1W3F4SlWVEY5JavI4yg=w660-h475-no" alt = "Tribute to Son House" class = "project-pic mx-auto d-block"></a></div>
   </div>
-  </div>
-  <div id = "contact">
+  </section>
+  <section id = "contact" class = "ptop">
     <div class = "title"><h2>Contact Information</h2></div>
     <p><strong>Email: </strong> cgelotte218@gmail.com</p>
    <a href = "https://www.linkedin.com/in/christine-gelotte-68917b133/"> <img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz_400x400.png" alt = "LinkedIn Logo" class = "logo"></a>
   <a href = "https://www.freecodecamp.org/christinegelotte"> <img src="https://d33wubrfki0l68.cloudfront.net/cce87b74a290f321f582cb56a12007343ff2d77e/bb9e6/img/glyph.png" alt = "Free Code Camp Logo" class = "logo" id = "camplogo"></a>
    <a href = "https://codepen.io/cgelotte/"> <img src="http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png" alt = "Codepen Logo" class = "logo"></a>
   </div>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
-
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 
 </body>

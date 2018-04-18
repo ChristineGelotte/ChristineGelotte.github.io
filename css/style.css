@@ -1,4 +1,5 @@
 body{
+  position:relative;
   background-color:black;
   color:white;
 }
@@ -6,33 +7,47 @@ h4{
   margin-top:10px;
 }
 p{
-  font-size:24pt;
+  font-size:16pt;
 }
 nav{
   background-color:black;
   color:white;
-  border:solid thin white;
+  border-bottom:solid thin white;
+}
+a{
+	color:white !important;
+	background-color:black !important;
+}
+.active a{
+    color:black !important;
+	background-color:white !important;
 }
 .title{
   border:solid;
   border-color:white;
-  margin: 30px 60px 30px 60px;
+  margin-bottom: 30px;
   text-align: center;
 }
 #page-title{
-   margin:30px;
+  margin-top:60px;
+  margin-bottom:100px;
   border:solid thick;
 }
-#home{
-  margin-top:200px;
-  margin-bottom:500px;  
+#home-img{
+	width:100%;
+	height:auto;
 }
 #contact{
   margin-bottom:500px;
 }
+.ptop{
+	padding-top:100px;
+}
 .logo{
   width:60px;
   height:60px;
+  margin-left:5px;
+  margin-right:5px;
 }
 #camplogo{
   width:80px;
@@ -40,6 +55,7 @@ nav{
 .project-title{
   font-size:12pt;
   text-align:center;
+  margin-top:5px;
 }
 .project-pic{
   width:350px;
