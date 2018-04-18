@@ -14,16 +14,19 @@ nav{
   color:white;
   border-bottom:solid thin white;
 }
-a{
+.nav-link{
 	color:white !important;
 	background-color:black !important;
 }
-.active a{
+.active .scroller{
     color:black !important;
 	background-color:white !important;
 }
+.nav-link:hover{
+	text-decoration:underline !important;
+}
 .navbar-toggler{
-	background-color:white !important;
+	color:white !important;
 }
 .navbar-collapse.collapse.in {
   display: block !important;
@@ -67,4 +70,10 @@ a{
   width:350px;
   height:300px;
   border:solid thin white;
+}
+@media screen and (max-width: 450px) {
+	.project-pic{
+		width:250px;
+		height:200px;
+	}
 }
