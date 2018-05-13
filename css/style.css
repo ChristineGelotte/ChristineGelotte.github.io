@@ -1,6 +1,6 @@
 body{
   position:relative;
-  background-color:black;
+  background-color: teal;
   color:white;
 }
 h4{
@@ -10,16 +10,16 @@ p{
   font-size:16pt;
 }
 nav{
-  background-color:black;
+  background-color:teal;
   color:white;
   border-bottom:solid thin white;
 }
 .nav-link{
 	color:white !important;
-	background-color:black !important;
+	background-color:teal !important;
 }
 .active .scroller{
-    color:black !important;
+    color:teal !important;
 	background-color:white !important;
 }
 .nav-link:hover{
